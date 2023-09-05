@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ch-ZN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>校园贴吧</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="container clearfix">
+            <img class="logo leftfix" src="./images/logo.png" alt="logo">
+            <h1>欢迎来到我的校园贴吧</h1>
+            <ul class="rightfix clearfix">
+                <li>
+                    <a href="javascript:;" class="login">登录</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="register">注册</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- 侧边电梯导航 -->
+    <div class="aside-nav">
+        <ul>
+            <li data-position="header">顶部</li>
+            <li></li>
+            <li data-position=".news">校园新闻</li>
+            <li></li>
+            <li data-position=".billboard">告示栏</li>
+            <li></li>
+            <li data-position=".discussion">学习交流</li>
+            <li></li>
+            <li data-position=".life">分享生活</li>
+        </ul>
+    </div>
+
+    <!-- 顶部导航 -->
+    <div class="top-nav">
+        <div class="container">
+            <ul class="clearfix">
+                <li><a href="javascript:;">账号信息</a></li>
+                <li><a href="javascript:;">发表新帖</a></li>
+                <li><a href="javascript:;">我的消息</a></li>
+                <li><a href="javascript:;">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 校园新闻 -->
+    <div class="news">
+        <div class="container clearfix">
+            <h1>校园新闻</h1>
+            <div class="slider leftfix">
+                <ul class="images clearfix">
+                    <li><img src="./images/新学期.png"></li>
+                    <li><img src="./images/复合材料.jpg"></li>
+                    <li><img src="./images/广州国际校区.png"></li>
+                </ul>
+                <ul class="points clearfix">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <div class="previous">&lt;</div>
+                <div class="next">&gt;</div>
+            </div>
+            <ul class="newsList leftfix">
+                <!-- <li data-id="0">
+                    <h3>华南理工大学</h3>
+                    <p>华南理工大学地处广州，是直属教育部的全国重点大学，校园分为五山校区、大学城校区和广州国际校区，是首届“全国文明校园”获得单位。学校办学源远流长，最早可溯源至1918年成立的广东省立第一甲种工业学校（史称“红色甲工”）；正式组建于1952年全国高等院校调整时期，是新中国“四大工学院”之一；1960年成为全国重点大学；1981年经国务院批准为首批博士和硕士学位授予单位；1993年在全国高校首开部省共建之先河；1995年进入“211工程”行列；2001年进入“985工程”行列；2017年进入“双一流”建设A类高校行列，2020年起稳居上海软科“世界大学学术排名”前200强。</p>
+                </li> -->
+                <!-- <li><a href="javascript:;" class="moreNews">更多最新消息</a></li> -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- 告示牌 -->
+    <div class="billboard">
+        <div class="container">
+            <div class="acEvents">
+                <h1>学术预告</h1>
+                <div class="secondTitle">
+                    <h3>Academics Events</h3>
+                    <a href="javascript:;">更多</a>
+                </div>
+                <ul class="eventsList">
+                    <!-- <li data-id="100">
+                        <div class="dateBox">
+                            <div class="day">12</div>
+                            <div class="month">十月</div>
+                        </div>
+                        <a href="javascript:;">关于叶锦辉大帅逼的通知</a>
+                    </li> -->
+
+                </ul>
+
+            </div>
+            <div class="notices">
+                <h1>教学通知</h1>
+                <div class="secondTitle">
+                    <h3>Instruction notice</h3>
+                    <a href="javascript:;">更多</a>
+                </div>
+                <ul class="noticesList"></ul>
+
+            </div>
+            <div class="media">
+                <h1>媒体华园</h1>
+                </h1>
+                <div class="secondTitle">
+                    <h3>In the Media</h3>
+                    </h2>
+                    <a href="javascript:;">更多</a>
+                </div>
+                <ul class="mediaList"></ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 学习讨论 -->
+    <div class="discussion">
+        <div class="container">
+            <h1>学习交流</h1>
+            <div class="content">
+                <div class="major">
+                    <h2>专业分类</h2>
+                    <div class="secondTitle">
+                        <h3>Major</h3>
+                        <a href="javascript:;">更多</a>
+                    </div>
+                    <ul class="majorList">
+                        <li data-id="0">计算机科学与技术</li>
+                    </ul>
+                </div>
+                <div class="course">
+                    <h2>热门课程</h2>
+                    <div class="secondTitle">
+                        <h3>Course</h3>
+                        <a href="javascript:;">更多</a>
+                    </div>
+                    <ul class="courseList">
+                        <li data-id="0">高等数学</li>
+                    </ul>
+                </div>
+                <div class="question">
+                    <h2>精选话题</h2>
+                    <div class="secondTitle">
+                        <h3>Popular topics</h3>
+                        <a href="javascript:;">更多</a>
+                    </div>
+                    <ul class="questionList">
+                        <li data-id="0">
+                            <h4>室温超导如果成真，会给我们带来哪些变化？</h4>
+                            <img src="https://www.108hei.com/wp-content/uploads/2021/07/2021071201083953.jpg">
+                            <p></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 分享校园生活 -->
+    <div class="life">
+        <ul class="container">
+            <h1 class="leftfix">分享校园生活</h1>
+            <a class="rightfix more" href="javascript:;">更多</a>
+            <ul class="content">
+                <li data-id = '0'>
+                    <img src="https://www.scut.edu.cn/_upload/article/images/5c/2a/dc427cfd4748906f928b956c6dbb/7c199516-595e-48b7-9d25-5dbda33aa674.jpg">
+                    <h3>招展</h3>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <ul>
+                <li>
+                    <h2>账号信息</h2>
+                </li>
+                <li><a href="javascript:;">个人中心</a></li>
+                <li><a href="javascript:;">账号安全</a></li>
+                <li><a href="javascript:;">我的消息</a></li>
+                <li><a href="javascript:;">浏览记录</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <h2>校园新闻</h2>
+                </li>
+                <li><a href="javascript:;">学术交流</a></li>
+                <li><a href="javascript:;">校园招聘</a></li>
+                <li><a href="javascript:;">知识讲座最新消息</a></li>
+                <li><a href="javascript:;">本月大事记</a></li>
+                <li><a href="javascript:;">职员变动</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <h2>告示牌</h2>
+                </li>
+                <li><a href="javascript:;">学术预告</a></li>
+                <li><a href="javascript:;">教学通知</a></li>
+                <li><a href="javascript:;">媒体华园</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <h2>学生论坛</h2>
+                </li>
+                <li><a href="javascript:;">学习讨论</a></li>
+                <li><a href="javascript:;">分享校园生活</a></li>
+                <li><a href="javascript:;">新生问答</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <h2>关于我们</h2>
+                </li>
+                <li><a href="javascript:;">作者</a></li>
+                <li><a href="javascript:;">更新日志</a></li>
+                <li><a href="javascript:;">问题反馈</a></li>
+            </ul>
+           
+        </div>
+    </footer>
+
+
+
+    <script src="./js/news.js"></script>
+    <script src="./js/events.js"></script>
+    <script src="./js/notices.js"></script>
+    <script src="./js/media.js"></script>
+    <script src="./js/discussion.js"></script>
+    <script src="./js/life.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
